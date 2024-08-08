@@ -32,9 +32,8 @@ public class Animal {
         System.out.println("ZzZzZz");
     }
 
-    public void imprimirDados(){
+    protected void imprimirDados(){
         System.out.println("Nome: " + this.nome);
         System.out.println("Idade: " + this.idade);
-
     }
 }
