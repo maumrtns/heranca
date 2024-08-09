@@ -5,12 +5,9 @@ import io.github.maumrtns.heranca.Panda;
 
 public class Main {
     public static void main(String[] args) {
-        Panda panda = new Panda();
 
-
-        Cachorro cachorro = new Cachorro();
+        Cachorro cachorro = new Cachorro(5);
         cachorro.setNome("Roy");
-        cachorro.setIdade(5);
         cachorro.latir();
     }
 }
