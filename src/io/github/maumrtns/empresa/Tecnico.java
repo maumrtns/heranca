@@ -12,6 +12,10 @@ public class Tecnico extends Funcionario {
     }
 
 
+    @Override
+    public double calcularBonificacaoAnual() {
+        return super.getSalario() * 2;
+    }
 }
 
 

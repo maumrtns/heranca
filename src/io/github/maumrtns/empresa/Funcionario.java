@@ -1,9 +1,12 @@
 package io.github.maumrtns.empresa;
 
-public class Funcionario {
+public abstract class Funcionario {
+
     private String nome;
     private String cpf;
     private double salario;
+
+    public abstract double calcularBonificacaoAnual();
 
     public double calcularBonificacao() {
         return (salario / 10) + 50;
